@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangkok Condo Listings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #007bff;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            table, th, td {
+                display: block;
+                width: 100%;
+            }
+            th {
+                text-align: right;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bangkok Condo Listings</h1>
+    </header>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Condo Name</th>
+                    <th>Distance (km)</th>
+                    <th>Room Type</th>
+                    <th>Price (THB)</th>
+                    <th>Lease Term (Months)</th>
+                    <th>Soundproofing</th>
+                    <th>Rating</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ekkamai Residences</td>
+                    <td>0.5</td>
+                    <td>1-Bedroom</td>
+                    <td>25,000</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td><a href="https://example.com/ekkamai-residences" target="_blank">Contact</a></td>
+                </tr>
+                <tr>
+                    <td>Ekkamai Heights</td>
+                    <td>0.6</td>
+                    <td>Studio</td>
+                    <td>18,000</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td><a href="https://example.com/ekkamai-heights" target="_blank">Contact</a></td>
+                </tr>
+                <!-- Additional rows go here -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
